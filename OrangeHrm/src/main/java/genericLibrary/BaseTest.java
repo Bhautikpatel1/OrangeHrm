@@ -44,7 +44,7 @@ public class BaseTest {
 	/**
 	 * This method is used to perform postcondition actions on the application
 	 */
-	public void postCondition() {
+	public void postCondition() throws InterruptedException {
 		driver.quit();
 	}
 }

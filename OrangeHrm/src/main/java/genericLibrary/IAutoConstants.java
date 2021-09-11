@@ -11,7 +11,7 @@ public interface IAutoConstants {
   String FIREFOX_KEY ="webdriver.gecko.driver";
   String FIREFOX_VALUE="./src/main/resources/geckodriver.exe";
   
-  String URL="http://localhost:8888/index.php?action=Login&module=Users";
+  String URL="https://opensource-demo.orangehrmlive.com/index.php/auth/login";
   String USER_NAME="admin";
   String PASSWORD="root";
   
