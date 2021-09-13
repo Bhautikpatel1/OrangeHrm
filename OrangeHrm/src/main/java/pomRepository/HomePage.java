@@ -22,7 +22,7 @@ public class HomePage extends BaseTest {
 	@FindBy(xpath="//b[text()='Admin']")
 	private WebElement admin;
 	
-	@FindBy(linkText="menu_recruitment_viewRecruitmentModule")
+	@FindBy(id="menu_recruitment_viewRecruitmentModule")
 	private WebElement recruitment;
 
 	public WebElement getRecruitment() {

@@ -83,6 +83,42 @@ public class RecruitmenCandidatetPage {
 	@FindBy(id="candidateSearch_modeOfApplication")
 	private WebElement modeOfApplication;
 	
+	
+	public WebElement getJobTitle() {
+		return jobTitle;
+	}
+
+
+	public WebElement getJobVacancy() {
+		return jobVacancy;
+	}
+
+
+	public WebElement getHiringManager() {
+		return hiringManager;
+	}
+
+
+	public WebElement getSearchStatus() {
+		return searchStatus;
+	}
+
+
+	public WebElement getSearchCandidateName() {
+		return searchCandidateName;
+	}
+
+
+	public WebElement getSearchkeyword() {
+		return searchkeyword;
+	}
+
+
+	public WebElement getModeOfApplication() {
+		return modeOfApplication;
+	}
+
+
 	public WebElement getOkButton() {
 		return OkButton;
 	}

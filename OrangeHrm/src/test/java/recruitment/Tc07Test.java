@@ -4,12 +4,14 @@ import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
 import genericLibrary.SelectClassUtil;
+import pomRepository.HomePage;
 import pomRepository.RecruitmenCandidatetPage;
 
 public class Tc07Test extends BaseTest{
 	@Test
 	public void login() {
-		
+		HomePage homePage=new HomePage(driver);
+		homePage.getRecruitment().click();
 		RecruitmenCandidatetPage recruitementPage=new RecruitmenCandidatetPage(driver);
 		recruitementPage.getAddButton().click();
 		recruitementPage.getFirstNameTextField().sendKeys("Sudarshan");
