@@ -1,5 +1,6 @@
 package admin;
 
+import org.openqa.selenium.Keys;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -12,17 +13,16 @@ public class Tc03Test extends BaseTest{
  
 	@Test
 	
-	public void admin() {
+	public void createUser() {
 		HomePage homePage=new HomePage(driver);
 		homePage.getAdmin().click();
 		AdminPage adminPage=new AdminPage(driver);
 		adminPage.getAdd().click();
 		SelectClassUtil dropDown=new SelectClassUtil();
-		dropDown.selectDropDown(adminPage.getUserRole(), "ESS");
 		adminPage.getEmployeeName().clear();
-		adminPage.getEmployeeName().sendKeys("David Morris");
-		adminPage.getSearchUserName().clear();
-		adminPage.getSearchUserName().sendKeys("Sudarshan");
+		adminPage.getEmployeeName().sendKeys("David Morris",Keys.ENTER);
+		adminPage.getUserName().clear();
+		adminPage.getUserName().sendKeys("Sudarshan");
 		dropDown.selectDropDown(adminPage.getStatusDropDown(), "Enabled");
 		adminPage.getPassword().clear();
 		adminPage.getPassword().sendKeys("Suda@123");

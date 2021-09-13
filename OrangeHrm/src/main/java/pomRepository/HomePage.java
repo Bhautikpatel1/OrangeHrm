@@ -21,6 +21,17 @@ public class HomePage extends BaseTest {
 	
 	@FindBy(xpath="//b[text()='Admin']")
 	private WebElement admin;
+	
+	@FindBy(linkText="menu_recruitment_viewRecruitmentModule")
+	private WebElement recruitment;
+
+	public WebElement getRecruitment() {
+		return recruitment;
+	}
+
+	public void setRecruitment(WebElement recruitment) {
+		this.recruitment = recruitment;
+	}
 
 	public WebElement getAdmin() {
 		return admin;

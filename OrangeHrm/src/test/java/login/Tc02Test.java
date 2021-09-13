@@ -5,11 +5,15 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
+import pomRepository.HomePage;
 import pomRepository.LoginPage;
 
 public class Tc02Test extends BaseTest{
 	@Test
 	public void login() {
+		HomePage homePage=new HomePage(driver);
+		homePage.getAccount().click();
+		homePage.getLogout().click();
 		LoginPage loginPage=new LoginPage(driver);
 		loginPage.getUsernameTextField().clear();
 		loginPage.getUsernameTextField().sendKeys("Admin1");

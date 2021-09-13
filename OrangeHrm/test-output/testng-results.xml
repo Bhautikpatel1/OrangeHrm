@@ -8,26 +8,22 @@
       <![CDATA[Successfully enter password into textFiled]]>
     </line>
     <line>
-      <![CDATA[Successfully click on login button]]>
+      <![CDATA[Directory Page is Displayed]]>
     </line>
     <line>
-      <![CDATA[Invalid credentials]]>
+      <![CDATA[User found]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13731" started-at="2021-09-13T12:50:17 IST" finished-at="2021-09-13T12:50:31 IST">
+  <suite name="Default suite" duration-ms="34853" started-at="2021-09-13T17:48:34 IST" finished-at="2021-09-13T17:49:09 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13731" started-at="2021-09-13T12:50:17 IST" finished-at="2021-09-13T12:50:31 IST">
-      <class name="login.Tc02Test">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:login.Tc02Test@a38d7a3]" name="preCondition" is-config="true" duration-ms="7812" started-at="2021-09-13T12:50:17 IST" finished-at="2021-09-13T12:50:25 IST">
+    <test name="Default test" duration-ms="34853" started-at="2021-09-13T17:48:34 IST" finished-at="2021-09-13T17:49:09 IST">
+      <class name="directory.Tc14Test">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:directory.Tc14Test@7b69c6ba]" name="preCondition" is-config="true" duration-ms="12908" started-at="2021-09-13T17:48:34 IST" finished-at="2021-09-13T17:48:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:login.Tc02Test@a38d7a3]" name="loginCredentials" is-config="true" duration-ms="3814" started-at="2021-09-13T12:50:25 IST" finished-at="2021-09-13T12:50:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginCredentials -->
-        <test-method status="PASS" signature="login()[pri:0, instance:login.Tc02Test@a38d7a3]" name="login" duration-ms="1415" started-at="2021-09-13T12:50:29 IST" finished-at="2021-09-13T12:50:30 IST">
+        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:directory.Tc14Test@7b69c6ba]" name="loginCredentials" is-config="true" duration-ms="6684" started-at="2021-09-13T17:48:47 IST" finished-at="2021-09-13T17:48:53 IST">
           <reporter-output>
             <line>
               <![CDATA[Successfully enter username into textFiled]]>
@@ -35,23 +31,27 @@
             <line>
               <![CDATA[Successfully enter password into textFiled]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- loginCredentials -->
+        <test-method status="PASS" signature="directory()[pri:0, instance:directory.Tc14Test@7b69c6ba]" name="directory" duration-ms="12889" started-at="2021-09-13T17:48:53 IST" finished-at="2021-09-13T17:49:06 IST">
+          <reporter-output>
             <line>
-              <![CDATA[Successfully click on login button]]>
+              <![CDATA[Directory Page is Displayed]]>
             </line>
             <line>
-              <![CDATA[Invalid credentials]]>
+              <![CDATA[User found]]>
             </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:login.Tc02Test@a38d7a3]" name="logout" is-config="true" duration-ms="4" started-at="2021-09-13T12:50:30 IST" finished-at="2021-09-13T12:50:30 IST">
+        </test-method> <!-- directory -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:directory.Tc14Test@7b69c6ba]" name="logout" is-config="true" duration-ms="1160" started-at="2021-09-13T17:49:06 IST" finished-at="2021-09-13T17:49:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:login.Tc02Test@a38d7a3]" name="postCondition" is-config="true" duration-ms="644" started-at="2021-09-13T12:50:30 IST" finished-at="2021-09-13T12:50:31 IST">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:directory.Tc14Test@7b69c6ba]" name="postCondition" is-config="true" duration-ms="1158" started-at="2021-09-13T17:49:08 IST" finished-at="2021-09-13T17:49:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- login.Tc02Test -->
+      </class> <!-- directory.Tc14Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

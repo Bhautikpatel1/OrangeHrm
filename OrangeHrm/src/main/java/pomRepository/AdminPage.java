@@ -12,51 +12,58 @@ public class AdminPage extends BaseTest{
 	public AdminPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	@FindBy(id="btnAdd")
 	private WebElement add;
-	
-	@FindBy(id="systemUser_userType")
+
+	@FindBy(xpath="//select[@id='systemUser_userType']")
 	private WebElement userRoleDropDown;
-	
+
 	@FindBy(id="systemUser_employeeName_empName")
 	private WebElement employeeName;
-	
-	@FindBy(id="systemUser_userName")
+
+	@FindBy(name="systemUser[userName]")
 	private WebElement userName;
-	
+
 	@FindBy(id="systemUser_status")
 	private WebElement statusDropDown;
-	
+
 	@FindBy(id="systemUser_password")
 	private WebElement password;
-	
+
 	@FindBy(id="systemUser_confirmPassword")
 	private WebElement confirmPassword;
-	
+
 	@FindBy(id="btnSave")
 	private WebElement save;
-	
+
 	@FindBy(id="btnCancel")
 	private WebElement cancel;
-	
+
 	@FindBy(id="searchSystemUser_userName")
 	private WebElement searchUserName;
-	
+
 	@FindBy(id="searchSystemUser_userType")
 	private WebElement userRole;
-	
+
 	@FindBy(id="searchSystemUser_employeeName_empName")
 	private WebElement searchemployeeName;
-	
+
 	@FindBy(id="searchSystemUser_status")
 	private WebElement searchstatus;
-	
+
 	@FindBy(id="searchBtn")
 	private WebElement search;
-	
+
 	@FindBy(id="resetBtn")
 	private WebElement reset;
+
+	@FindBy(xpath="//a[@href='saveSystemUser?userId=41']")
+	private WebElement userNameResult;
+
+	public WebElement getUserNameResult() {
+		return userNameResult;
+	}
 
 	public WebElement getAdd() {
 		return add;
@@ -117,6 +124,6 @@ public class AdminPage extends BaseTest{
 	public WebElement getReset() {
 		return reset;
 	}
-	
-	
+
+
 }
