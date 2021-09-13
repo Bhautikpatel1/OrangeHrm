@@ -8,8 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 import genericLibrary.BaseTest;
 
 public class LoginPage extends BaseTest{
+	
     public LoginPage(WebDriver driver){
-    	PageFactory.initElements(driver, this);
+    	
+    	PageFactory.initElements(driver,this);
     }
     @FindBy(id="txtUsername")
     private WebElement usernameTextField;

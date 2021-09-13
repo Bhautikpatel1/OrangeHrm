@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Successfully enter username into textFiled]]>
+    </line>
+    <line>
+      <![CDATA[Successfully enter password into textFiled]]>
+    </line>
+    <line>
+      <![CDATA[Successfully click on login button]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30029" started-at="2021-09-11T12:21:55 IST" finished-at="2021-09-11T12:22:25 IST">
+  <suite name="Default suite" duration-ms="13731" started-at="2021-09-13T12:50:17 IST" finished-at="2021-09-13T12:50:31 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30029" started-at="2021-09-11T12:21:55 IST" finished-at="2021-09-11T12:22:25 IST">
+    <test name="Default test" duration-ms="13731" started-at="2021-09-13T12:50:17 IST" finished-at="2021-09-13T12:50:31 IST">
       <class name="login.Tc02Test">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:login.Tc02Test@a38d7a3]" name="preCondition" is-config="true" duration-ms="9717" started-at="2021-09-11T12:21:55 IST" finished-at="2021-09-11T12:22:05 IST">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:login.Tc02Test@a38d7a3]" name="preCondition" is-config="true" duration-ms="7812" started-at="2021-09-13T12:50:17 IST" finished-at="2021-09-13T12:50:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:login.Tc02Test@a38d7a3]" name="loginCredentials" is-config="true" duration-ms="15272" started-at="2021-09-11T12:22:05 IST" finished-at="2021-09-11T12:22:20 IST">
+        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:login.Tc02Test@a38d7a3]" name="loginCredentials" is-config="true" duration-ms="3814" started-at="2021-09-13T12:50:25 IST" finished-at="2021-09-13T12:50:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCredentials -->
-        <test-method status="PASS" signature="login()[pri:0, instance:login.Tc02Test@a38d7a3]" name="login" duration-ms="4346" started-at="2021-09-11T12:22:20 IST" finished-at="2021-09-11T12:22:24 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:login.Tc02Test@a38d7a3]" name="login" duration-ms="1415" started-at="2021-09-13T12:50:29 IST" finished-at="2021-09-13T12:50:30 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Successfully enter username into textFiled]]>
+            </line>
+            <line>
+              <![CDATA[Successfully enter password into textFiled]]>
+            </line>
+            <line>
+              <![CDATA[Successfully click on login button]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:login.Tc02Test@a38d7a3]" name="logout" is-config="true" duration-ms="1" started-at="2021-09-11T12:22:24 IST" finished-at="2021-09-11T12:22:24 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:login.Tc02Test@a38d7a3]" name="logout" is-config="true" duration-ms="4" started-at="2021-09-13T12:50:30 IST" finished-at="2021-09-13T12:50:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:login.Tc02Test@a38d7a3]" name="postCondition" is-config="true" duration-ms="651" started-at="2021-09-11T12:22:24 IST" finished-at="2021-09-11T12:22:25 IST">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:login.Tc02Test@a38d7a3]" name="postCondition" is-config="true" duration-ms="644" started-at="2021-09-13T12:50:30 IST" finished-at="2021-09-13T12:50:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
