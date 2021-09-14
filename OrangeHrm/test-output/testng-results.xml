@@ -7,17 +7,20 @@
     <line>
       <![CDATA[Successfully enter password into textFiled]]>
     </line>
+    <line>
+      <![CDATA[Leave status is verified]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35600" started-at="2021-09-14T15:32:39 IST" finished-at="2021-09-14T15:33:15 IST">
+  <suite name="Default suite" duration-ms="38351" started-at="2021-09-14T17:01:26 IST" finished-at="2021-09-14T17:02:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35600" started-at="2021-09-14T15:32:39 IST" finished-at="2021-09-14T15:33:15 IST">
-      <class name="recruitment.Tc07Test">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:recruitment.Tc07Test@7b69c6ba]" name="preCondition" is-config="true" duration-ms="6482" started-at="2021-09-14T15:32:39 IST" finished-at="2021-09-14T15:32:46 IST">
+    <test name="Default test" duration-ms="38351" started-at="2021-09-14T17:01:26 IST" finished-at="2021-09-14T17:02:04 IST">
+      <class name="leave.Tc12Test">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:leave.Tc12Test@7b69c6ba]" name="preCondition" is-config="true" duration-ms="14519" started-at="2021-09-14T17:01:26 IST" finished-at="2021-09-14T17:01:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:recruitment.Tc07Test@7b69c6ba]" name="loginCredentials" is-config="true" duration-ms="10153" started-at="2021-09-14T15:32:46 IST" finished-at="2021-09-14T15:32:56 IST">
+        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:leave.Tc12Test@7b69c6ba]" name="loginCredentials" is-config="true" duration-ms="13122" started-at="2021-09-14T17:01:41 IST" finished-at="2021-09-14T17:01:54 IST">
           <reporter-output>
             <line>
               <![CDATA[Successfully enter username into textFiled]]>
@@ -27,19 +30,22 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginCredentials -->
-        <test-method status="PASS" signature="login()[pri:0, instance:recruitment.Tc07Test@7b69c6ba]" name="login" duration-ms="16917" started-at="2021-09-14T15:32:56 IST" finished-at="2021-09-14T15:33:13 IST">
+        <test-method status="PASS" signature="leave()[pri:0, instance:leave.Tc12Test@7b69c6ba]" name="leave" duration-ms="8822" started-at="2021-09-14T17:01:54 IST" finished-at="2021-09-14T17:02:02 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Leave status is verified]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:recruitment.Tc07Test@7b69c6ba]" name="logout" is-config="true" duration-ms="1180" started-at="2021-09-14T15:33:13 IST" finished-at="2021-09-14T15:33:14 IST">
+        </test-method> <!-- leave -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:leave.Tc12Test@7b69c6ba]" name="logout" is-config="true" duration-ms="1157" started-at="2021-09-14T17:02:02 IST" finished-at="2021-09-14T17:02:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:recruitment.Tc07Test@7b69c6ba]" name="postCondition" is-config="true" duration-ms="815" started-at="2021-09-14T15:33:14 IST" finished-at="2021-09-14T15:33:15 IST">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:leave.Tc12Test@7b69c6ba]" name="postCondition" is-config="true" duration-ms="682" started-at="2021-09-14T17:02:04 IST" finished-at="2021-09-14T17:02:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- recruitment.Tc07Test -->
+      </class> <!-- leave.Tc12Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
