@@ -10,6 +10,9 @@ public class RecruitmentVacanciesPage {
 	public RecruitmentVacanciesPage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
+	
+	   @FindBy(linkText="Vacancies")
+	   private WebElement vacancies;
 		
 		@FindBy(id="menu_recruitment_viewJobVacancy")
 		private WebElement vacancyBtn;
@@ -34,6 +37,51 @@ public class RecruitmentVacanciesPage {
 		
 		@FindBy(id="btnSave")
 		private WebElement SaveButton;
+		
+		@FindBy(id="vacancySearch_jobVacancy")
+		private WebElement vacancyDropdown;
+
+		public WebElement getVacancies() {
+			return vacancies;
+		}
+
+
+		public WebElement getVacancyDropdown() {
+			return vacancyDropdown;
+		}
+		
+		@FindBy(id="btnSrch")
+		private WebElement searchButton;
+
+
+		public WebElement getSearchButton() {
+			return searchButton;
+		}
+		
+		@FindBy(id="ohrmList_chkSelectRecord_5")
+		private WebElement selectRecord;
+
+
+		public WebElement getSelectRecord() {
+			return selectRecord;
+		}
+		
+		@FindBy(id="btnDelete")
+		private WebElement DeleteButton;
+
+
+		public WebElement getDeleteButton() {
+			return DeleteButton;
+		}
+		
+		@FindBy(id="dialogDeleteBtn")
+		private WebElement OkButton;
+
+
+		public WebElement getOkButton() {
+			return OkButton;
+		}
+		
 		
 		public WebElement getVacancyBtn() {
 			return vacancyBtn;
