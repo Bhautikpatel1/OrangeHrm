@@ -30,7 +30,19 @@ public class LeavePage extends BaseTest{
 
 	@FindBy(id="leaveList_txtEmployee_empName")
 	private WebElement empSearchField;
+	
+	@FindBy(xpath="//label[text()='Pending Approval']/..//input[@value='1']")
+	private WebElement approvalCheckBox;
+	
+	@FindBy(xpath="//label[text()='Taken']/..//input[@value='3']")
+	private WebElement takenCheckBox;
 
+	public WebElement getApprovalCheckBox() {
+		return approvalCheckBox;
+	}
+	public WebElement getTakenCheckBox() {
+		return takenCheckBox;
+	}
 	public WebElement getEmpSearchField() {
 		return empSearchField;
 	}
