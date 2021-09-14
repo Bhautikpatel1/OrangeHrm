@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class RecruitmenCandidatetPage {
+public class RecruitmentCandidatetPage {
 
-	public RecruitmenCandidatetPage(WebDriver driver){
+	public RecruitmentCandidatetPage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
 
@@ -78,6 +78,8 @@ public class RecruitmenCandidatetPage {
 	
 	@FindBy(id="vacancySearch_jobVacancy")
 	private WebElement vacancyDropdown;
+	
+	;
 
 	public WebElement getVacancyDropdown() {
 		return vacancyDropdown;
@@ -91,8 +93,8 @@ public class RecruitmenCandidatetPage {
 		return searchButton;
 	}
 	
-	@FindBy(id="ohrmList_chkSelectRecord_5")
-	private WebElement selectRecord;
+	@FindBy(xpath="//input[@type='checkbox']/../../../..//input[@name='chkSelectRow[]']")
+    private WebElement selectRecord;
 
 
 	public WebElement getSelectRecord() {

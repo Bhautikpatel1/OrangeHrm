@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="recruitment.Tc05Test">
+      <class name="recruitment.Tc07Test">
         <methods>
           <include name="preCondition"/>
-          <include name="addCandidateDetails"/>
           <include name="loginCredentials"/>
           <include name="postCondition"/>
+          <include name="login"/>
           <include name="logout"/>
         </methods>
-      </class> <!-- recruitment.Tc05Test -->
+      </class> <!-- recruitment.Tc07Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

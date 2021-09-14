@@ -1,5 +1,6 @@
 package directory;
 
+import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
@@ -14,13 +15,11 @@ public class Tc14Test extends BaseTest{
 		DirectoryPage directory= new DirectoryPage(driver);
 		directory.getDirectoryTab().click();
 		Reporter.log("Directory Page is Displayed",true);
-		directory.getSearchName().sendKeys("Garry White");
+		directory.getSearchName().sendKeys("Garry White",Keys.ENTER);
 		directory.getSearchButton();
 		String userName = directory.getVerify().getText();
 		Assert.assertEquals(userName,"Garry White","User not found");
 		Reporter.log("User found",true);
-		Thread.sleep(3000);
-				
 	}
 	
 }

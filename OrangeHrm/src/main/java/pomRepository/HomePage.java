@@ -24,6 +24,13 @@ public class HomePage extends BaseTest {
 	
 	@FindBy(id="menu_recruitment_viewRecruitmentModule")
 	private WebElement recruitment;
+	
+	@FindBy(id="menu__Performance")
+	private WebElement performanceButton;
+
+	public WebElement getPerformanceButton() {
+		return performanceButton;
+	}
 
 	public WebElement getRecruitment() {
 		return recruitment;
