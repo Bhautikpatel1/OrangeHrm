@@ -36,6 +36,7 @@ public class LeavePage extends BaseTest{
 	
 	@FindBy(xpath="//label[text()='Taken']/..//input[@value='3']")
 	private WebElement takenCheckBox;
+	
 
 	public WebElement getApprovalCheckBox() {
 		return approvalCheckBox;
